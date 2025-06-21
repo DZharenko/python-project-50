@@ -1,0 +1,3 @@
+.python-version
+ gendiff/scripts/__pycache__/
+ main.py
