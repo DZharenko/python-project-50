@@ -1,5 +1,5 @@
 {
-  "timeout": 20,
+  "timeout": 0,
   "verbose": true,
-  "host": "hexlet.io"
+  "host": "И отсюда тебе здоово"
 }
