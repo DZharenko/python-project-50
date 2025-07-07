@@ -4,8 +4,6 @@ from gendiff.gendiff_engine.generate_diff import generate_diff
 from gendiff.parse_file import read_json
 
 
-
-
 def main():
 
     parser = argparse.ArgumentParser(prog='Вычислитель отличий',
