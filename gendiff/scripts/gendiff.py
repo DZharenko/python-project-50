@@ -1,5 +1,4 @@
 import argparse
-
 from gendiff.gendiff_engine.generate_diff import generate_diff
 from gendiff.parse_file import read_json
 
