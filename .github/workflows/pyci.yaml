@@ -28,5 +28,5 @@ jobs:
         with:
           args: >
             -Dsonar.projectKey=DZharenko_python-project-50
-            -Dsonar.organization=DZharenko
+            -Dsonar.organization=dzharenko
             -Dsonar.python.coverage.reportPaths=coverage.xml
