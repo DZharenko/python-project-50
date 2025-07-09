@@ -2,7 +2,6 @@
 gendiff/scripts/__pycache__/
 main.py
 gendiff/__pycache__/
-gendiff/gendiff_engine/
 gendiff/scripts/file1.json
 gendiff/scripts/file2.json
 gendiff/files_directore/file1.json
