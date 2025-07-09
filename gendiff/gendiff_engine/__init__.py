@@ -1,5 +1,5 @@
-#from gendiff.gendiff_engine.generate_diff import generate_diff
+# from gendiff.gendiff_engine.generate_diff import generate_diff
 #
-#__all__ = (
+# __all__ = (
 #    'generate_diff'
-#)
+# )
