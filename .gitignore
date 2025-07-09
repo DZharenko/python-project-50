@@ -8,3 +8,4 @@ gendiff/scripts/file2.json
 gendiff/files_directore/file1.json
 gendiff/files_directore/file2.json
 diff.cast
+__pycache__/

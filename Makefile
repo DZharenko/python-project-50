@@ -17,7 +17,10 @@ force_package:
 lint:
 	uv run ruff check
 
-check: lint
+test:
+	uv run pytest
+
+check: lint test
 		
 test-coverage:
 	uv run pytest --cov=gendiff --cov-report xml
