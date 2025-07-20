@@ -14,6 +14,7 @@ package-install:
 
 force_package:
 	uv tool install --force dist/*.whl
+
 lint:
 	uv run ruff check
 

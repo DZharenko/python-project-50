@@ -8,3 +8,5 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DZharenko_python-project-50&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=DZharenko_python-project-50)
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DZharenko_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DZharenko_python-project-50)
+
+[![Diff YAML - asciicast](https://asciinema.org/a/n4WKDhxCoRWQC8Xx33YcuxZjN.svg)](https://asciinema.org/a/n4WKDhxCoRWQC8Xx33YcuxZjN)

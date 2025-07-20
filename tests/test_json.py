@@ -1,10 +1,5 @@
-from pathlib import Path
-
 from gendiff import generate_diff
-
-
-def get_test_file_path(filename):
-    return Path(__file__).parent / 'test_data' / filename
+from gendiff.parse_file import get_test_file_path
 
 
 def test_json():

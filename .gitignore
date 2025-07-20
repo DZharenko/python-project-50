@@ -10,3 +10,4 @@ diff.cast
 __pycache__/
 .coverage
 coverage.xml
+*.cast
