@@ -10,3 +10,7 @@
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DZharenko_python-project-50&metric=coverage)](https://sonarcloud.io/summary/new_code?id=DZharenko_python-project-50)
 
 [![Diff YAML - asciicast](https://asciinema.org/a/n4WKDhxCoRWQC8Xx33YcuxZjN.svg)](https://asciinema.org/a/n4WKDhxCoRWQC8Xx33YcuxZjN)
+
+
+[![Diff Stylish format asciicast](https://asciinema.org/a/TJL8c3xS36aRjJ4WjobKHccY1.svg)](https://asciinema.org/a/TJL8c3xS36aRjJ4WjobKHccY1)
+
