@@ -1,7 +1,9 @@
 from gendiff.parse_file import read_json
 from gendiff.parse_file import read_yaml
 from .build_diff import build_diff
-from .formatters import stylish_format, json_format
+from .formatters.json_format import json_format
+from .formatters.stylish_format import stylish_format
+from .formatters.plain_format import plain_format
 from pathlib import Path
 
 
@@ -33,7 +35,9 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
     if format_name == 'stylish':
         result = stylish_format(result)
     elif format_name == 'json':
-        result = json_format(result)  
+        result = json_format(result)
+    elif format_name == 'plain':
+        result = plain_format(result)  
 
 
     return result

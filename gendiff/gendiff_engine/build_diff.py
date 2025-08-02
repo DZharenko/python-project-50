@@ -50,4 +50,3 @@ def build_diff(dict1, dict2):
                 }
             )
     return diff_result
-

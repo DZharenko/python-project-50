@@ -14,3 +14,6 @@
 
 [![Diff Stylish format asciicast](https://asciinema.org/a/TJL8c3xS36aRjJ4WjobKHccY1.svg)](https://asciinema.org/a/TJL8c3xS36aRjJ4WjobKHccY1)
 
+
+[![Diff Plain format asciicast](https://asciinema.org/a/QDIe1HjLohqRMa3x1L4HqUXJd.svg)](https://asciinema.org/a/QDIe1HjLohqRMa3x1L4HqUXJd)
+
