@@ -26,13 +26,15 @@ def plain_format(list_of_dicts, parents=None, result=None):
         parent = f'{parents}.{key_name}' if parents else key_name
 
         if status == 'added':
-            result.append(f"Property '{parent}' was added with value: {value_current}")
+            result.append(f"Property '{parent}' was added with value: \
+                          {value_current}")
 
         elif elem.get('status') == 'deleted':
             result.append(f"Property '{parent}' was removed")
         
         elif elem.get('status') == 'changed':
-            result.append(f"Property '{parent}' was updated. From {value_old} to {value_new}")
+            result.append(f"Property '{parent}' was updated. \
+                          From {value_old} to {value_new}")
 
         elif status == 'nested':
             plain_format(elem.get('children'), parent, result)                

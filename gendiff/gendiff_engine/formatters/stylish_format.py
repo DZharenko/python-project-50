@@ -1,4 +1,4 @@
-def get_shift(depth, replacer = ' '):
+def get_shift(depth, replacer=' '):
     return replacer * (depth * 4 - 2)
 
 
@@ -17,7 +17,6 @@ def get_formatted_value(value, depth=1):
     return f"{value}"
 
 
-
 def stylish_format(list_of_dicts, depth=1):
     shift = get_shift(depth)
     result = []
@@ -34,7 +33,7 @@ def stylish_format(list_of_dicts, depth=1):
             result.append(f'{shift}+ {key_name}: {value_current}')
 
         elif status == 'nested':
-            children = stylish_format(elem.get('children'), depth+1)
+            children = stylish_format(elem.get('children'), depth + 1)
             result.append(f'{shift}  {key_name}: {children}')
 
         elif elem.get('status') == 'deleted':

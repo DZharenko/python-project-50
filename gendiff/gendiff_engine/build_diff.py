@@ -22,7 +22,7 @@ def build_diff(dict1, dict2):
                     'value': dict2[key],
                 }
             )
-        elif isinstance(dict1[key], dict) and isinstance(dict2[key],dict):
+        elif isinstance(dict1[key], dict) and isinstance(dict2[key], dict):
             nested_diff = build_diff(dict1[key], dict2[key])
             if nested_diff:
                 diff_result.append(
@@ -37,7 +37,7 @@ def build_diff(dict1, dict2):
                 {
                     'key': key,
                     'status': 'unchanged',
-                    'value': dict1[key],  
+                    'value': dict1[key], 
                 }
             )
         else:

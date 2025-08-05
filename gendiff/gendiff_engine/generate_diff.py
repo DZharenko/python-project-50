@@ -1,11 +1,11 @@
-from gendiff.parse_file import read_json
-from gendiff.parse_file import read_yaml
-from .build_diff import build_diff
-from .formatters.json_format import json_format
-from .formatters.stylish_format import stylish_format
-from .formatters.plain_format import plain_format
 from pathlib import Path
 
+from gendiff.parse_file import read_json, read_yaml
+
+from .build_diff import build_diff
+from .formatters.json_format import json_format
+from .formatters.plain_format import plain_format
+from .formatters.stylish_format import stylish_format
 
 
 def generate_diff(file_path1, file_path2, format_name='stylish'):
@@ -21,7 +21,7 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
     
     if file1_extension == 'json':
         dict1 = read_json(file_path1)
-    elif file1_extension == 'yaml' or file1_extension == 'yml' :
+    elif file1_extension == 'yaml' or file1_extension == 'yml':
         dict1 = read_yaml(file_path1)
 
     if file2_extension == 'json':
@@ -29,7 +29,6 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
     elif file2_extension == 'yaml' or file2_extension == 'yml':
         dict2 = read_yaml(file_path2)
 
-    
     result = build_diff(dict1, dict2)
 
     if format_name == 'stylish':
@@ -38,6 +37,5 @@ def generate_diff(file_path1, file_path2, format_name='stylish'):
         result = json_format(result)
     elif format_name == 'plain':
         result = plain_format(result)  
-
 
     return result
