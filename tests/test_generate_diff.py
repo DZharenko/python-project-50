@@ -1,16 +1,11 @@
 import json
-from pathlib import Path
 
 import yaml
 
-# from gendiff.scripts.generate_diff import generate_diff
-from gendiff.gendiff_engine.generate_diff import generate_diff
-# from gendiff.scripts.parsing_file import  get_parsed_file, read_json, read_yaml
-from gendiff.gendiff_engine.parse_file import read_json, read_yaml, get_test_file_path
-
-
-# def get_test_data_path(filename):
-#     return Path(__file__).parent / 'test_data' / filename
+from gendiff.gendiff_engine.parse_file import (
+    get_test_file_path,
+    read_json,
+)
 
 
 def read_text_file(filename):
