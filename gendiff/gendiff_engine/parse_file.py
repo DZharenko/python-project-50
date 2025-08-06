@@ -15,5 +15,8 @@ def read_yaml(path_to_file):
  
 
 def get_test_file_path(filename):   
-    return Path(__file__).parent.parent / 'tests' / 'test_data' / filename
+    return (Path(__file__).parent.parent.parent 
+            / 'tests' 
+            / 'test_data' 
+            / filename)
 

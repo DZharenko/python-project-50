@@ -1,14 +1,13 @@
 [project]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Add your description here"
+description = "Make diff between two files"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "pytest-cov",
     "pyyaml>=6.0.2",
 ]
-
 
 [build-system]
 requires = ["hatchling"]
