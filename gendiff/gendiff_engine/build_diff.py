@@ -3,7 +3,7 @@ def build_diff(dict1, dict2):
     diff_result = []
 
     diff_keys = dict1.keys() | dict2.keys()
-    sort_keys = sorted(list(diff_keys))
+    sort_keys = sorted(diff_keys)
 
     for key in sort_keys:
         if key not in dict2:
