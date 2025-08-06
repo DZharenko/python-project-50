@@ -1,5 +1,5 @@
 from gendiff import generate_diff
-from gendiff.parse_file import get_test_file_path
+from gendiff.gendiff_engine.parse_file import get_test_file_path
 
 
 def test_yaml():

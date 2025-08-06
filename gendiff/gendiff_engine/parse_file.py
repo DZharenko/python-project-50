@@ -17,6 +17,3 @@ def read_yaml(path_to_file):
 def get_test_file_path(filename):   
     return Path(__file__).parent.parent / 'tests' / 'test_data' / filename
 
-
-# print(read_yaml(get_test_file_path('file2.yaml')))
-# print(read_yaml(get_test_file_path('file1.json')))

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from gendiff.parse_file import read_json, read_yaml
+from gendiff.gendiff_engine.parse_file import read_json, read_yaml
 
 from .build_diff import build_diff
 from .formatters.json_format import json_format
